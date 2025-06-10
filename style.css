@@ -132,7 +132,7 @@ td:nth-child(2) {
     font-weight: 700;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     body{
         padding: 10px;
     }
