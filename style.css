@@ -8,11 +8,13 @@
 @font-face {
     font-family: 'Young Serif';
     src: url("YoungSerif/YoungSerif-Regular.ttf") format("truetype");
+    font-size: 40%;
 }
 
 @font-face {
     font-family: 'Outfit';
     src: url("Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+    font-size: 40%;
 }
 
 h1 {
