@@ -78,10 +78,6 @@ ul, ol {
     list-style-position: inside;
 }
 
-
-li{
-
-}
 ol li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 800;
@@ -134,4 +130,14 @@ td {
 td:nth-child(2) {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        padding: 10px;
+    }
+    .container{
+        padding: 15px;
+        width: 100%;
+    }
 }
