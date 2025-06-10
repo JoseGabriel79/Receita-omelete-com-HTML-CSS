@@ -41,7 +41,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding-top:5% ;
+    padding-top: 5%;
     background-color: hsl(30, 54%, 90%);
 }
 
@@ -71,7 +71,8 @@ body {
     gap: 10px;
 }
 
-ul, ol {
+ul,
+ol {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -131,44 +132,53 @@ td:nth-child(2) {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
-.initial-group{
+
+.initial-group {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 @media screen and (max-width: 768px) {
-    body{
+    body {
         padding: 0;
         margin: 0;
     }
-    .container{
+
+    .container {
         padding: 0;
         width: 100%;
         height: 100%;
     }
-    img{
+
+    img {
         border-radius: 0;
     }
-    .initial-group{
+
+    .initial-group {
         width: 100%;
-        margin-left: 20px;
+        height: 100%;
         margin-right: 20px;
     }
-    .preparation{
+
+    .preparation {
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 8px;
     }
-    .ingredients{
+
+    .ingredients {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .instructions{
+
+    .instructions {
         margin-left: 20px;
         margin-right: 20px;
         margin: 40PX;
     }
-    .nutrition{
+
+    .nutrition {
         margin-left: 20px;
         margin-right: 20px;
     }
