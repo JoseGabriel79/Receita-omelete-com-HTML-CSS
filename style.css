@@ -60,7 +60,6 @@ body {
 .preparation {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: hsl(330, 100%, 98%);
     padding: 40PX;
     font-family: 'Outfit', sans-serif;
