@@ -157,9 +157,8 @@ td:nth-child(2) {
     }
 
     .initial-group {
-        width: 100%;
-        height: 100%;
         margin-right: 20px;
+        margin-left: 20px;
     }
 
     .preparation {
